@@ -9,19 +9,20 @@
 <body>
     <div class="container">
         <h1>Calculadora de Distribuição de Carga</h1>
-        <form id="chargeForm">
-            <div class="form-group">
-                <label for="charge1">Carga inicial do objeto 1:</label>
-                <input type="number" id="charge1" step="any" required>
+        <div class="charge-inputs">
+            <div class="charge-circle" id="chargeCircle1">
+                <input type="number" id="charge1" step="any" placeholder="0.00 C" required>
+                <span>Objeto 1</span>
             </div>
-            <div class="form-group">
-                <label for="charge2">Carga inicial do objeto 2:</label>
-                <input type="number" id="charge2" step="any" required>
+            <div class="charge-circle" id="chargeCircle2">
+                <input type="number" id="charge2" step="any" placeholder="0.00 C" required>
+                <span>Objeto 2</span>
             </div>
-            <button type="submit">Calcular</button>
-        </form>
+        </div>
+        <button id="calculateButton">Calcular</button>
+        <div id="animationContainer"></div>
         <div id="result"></div>
-        <span>Grupo: Yuri Moreira, Matheus Lelis, Leandro da Cruz, Ian Gabriel, Ryan Vitor e Gustavo Benício</span>
+        <span class="group">Grupo: Yuri Moreira, Matheus Lelis, Leandro da Cruz, Ian Gabriel, Ryan Vitor e Gustavo Benício</span>
     </div>
     <script src="script.js"></script>
 </body>
