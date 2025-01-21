@@ -17,14 +17,13 @@ body {
 
 /* Cores Padrões */
 :root {
-    --cor-primaria:#64baa1;
-    --cor-secundaria:#33a483;
-    --cor-terciaria:#021f53;
-    --cor-quartenaria:#1e3866;
-    --cor-quintenaria:#a3e5f3;
-    --cor-senaria:#fff;
+    --cor-primaria: #4c697a; /* Azul acinzentado: calmo e científico */
+    --cor-secundaria: #a3b9c6; /* Azul claro: leve e relacionado à energia fluida */
+    --cor-terciaria: #2b3a42; /* Azul petróleo: profissional e sofisticado */
+    --cor-quartenaria: #3e5360; /* Cinza azulado: equilíbrio para seções */
+    --cor-quintenaria: #cddce2; /* Azul muito claro: fundo suave e harmonioso */
+    --cor-senaria: #f8f9fa; /* Branco quase puro: perfeito para legibilidade */
 }
-
 
 /*Padrões*/
 

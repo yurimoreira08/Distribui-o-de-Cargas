@@ -1,29 +1,209 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Distribuição de Carga</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <title>Eletrização por Contato</title>
 </head>
+
 <body>
-    <div class="container">
-        <h1>Calculadora de Distribuição de Carga</h1>
-        <div class="charge-inputs">
-            <div class="charge-circle" id="chargeCircle1">
-                <input type="number" id="charge1" step="any" placeholder="0.00 C" required>
-                <span>Objeto 1</span>
-            </div>
-            <div class="charge-circle" id="chargeCircle2">
-                <input type="number" id="charge2" step="any" placeholder="0.00 C" required>
-                <span>Objeto 2</span>
-            </div>
+
+    <header>
+        <div class="titulos">
+            <h1>Elestrostática</h1>
         </div>
-        <button id="calculateButton">Calcular</button>
-        <div id="animationContainer"></div>
-        <div id="result"></div>
-        <span class="group">Grupo: Yuri Moreira, Matheus Lelis, Leandro da Cruz, Ian Gabriel, Ryan Vitor e Gustavo Benício</span>
-    </div>
-    <script src="script.js"></script>
+
+        <nav class="navegacao">
+            <a href="#definicao">
+                <h5>Definição</h5>
+            </a>
+
+            <a href="#como-ocorre">
+                <h5>Eletrização por contato</h5>
+            </a>
+
+            <a href="#caracteristicas">
+                <h5>Características</h5>
+            </a>
+
+            <a href="#exemplo">
+                <h5>Exemplo</h5>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--SEÇÃO 1-->
+        <section class="secao1">
+
+            <div class="slogan">
+                <h1 class="textos">Eletrostática é o ramo da física que estuda as propriedades e os fenômenos
+                    relacionados às cargas elétricas em repouso.</h1>
+            </div>
+
+            <div class="logo-goodShape">
+                <img src="img/img1.jpg" alt="Imagem ilustrativa">
+            </div>
+        </section>
+        <span id="definicao"></span>
+        <br><br><br><br>
+        <!--SEÇÃO PRINCÍPIOS-->
+        <section class="container">
+            <div class="topico3">
+                <h1 class="titulos" style="text-align: center;">O que é o Elestrostática?</span></h1>
+            </div>
+            <div class="inicio">
+                <div class="card-benefit">
+                    <div class="card-benefit-content">
+                        <p class="textos">Eletrostática abrange os comportamentos das cargas elétricas e as forças que
+                            elas exercem umas
+                            sobre as outras, além das interações com campos elétricos e materiais. Os princípios da
+                            eletrização envolvem as regras fundamentais que governam os processos de transferência e
+                            redistribuição de cargas elétricas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="topico3">
+                <h1 class="titulos" style="text-align: center;">Quais são os princípios?</span></h1>
+            </div>
+            <div class="card-benefit">
+                <div class="card-benefit-content">
+                    <h1>Princípio de Conservação de Carga:</h1>
+                    <p>A carga elétrica total de um sistema isolado permanece constante. Durante qualquer processo de
+                        eletrização, não há criação nem destruição de cargas, apenas transferência de cargas entre os
+                        corpos.</p>
+                </div>
+                <img class="img-principios" src="img/img2.jpg" alt="Imagen ilustrativa">
+            </div>
+            <div class="card-benefit card-benefit-invert">
+                <div class="card-benefit-content">
+                    <h1>Princípio de Atração e Repulsão:</h1>
+                    <p>Cargas de mesmo sinal se repelem. Cargas de sinais opostos se atraem. Esse princípio rege a
+                        interação entre corpos eletricamente carregados.</p>
+                </div>
+                <img src="img/img3.webp" alt="Imagen ilustrativa">
+            </div>
+        </section>
+
+        <!-- SEÇÃO PLANOS -->
+        <span id="como-ocorre"></span>
+        <br><br><br><br>
+        <section class="planos">
+            <h1 class="titulos2">Eletrização por Contato</h1>
+            <div class="plano">
+                <div class="texto1">
+                    <p class="textos2">
+                        A eletrização por contato é um processo pelo qual um corpo adquire carga elétrica ao entrar em contato com outro corpo que já possui carga elétrica. Esse fenômeno ocorre devido à transferência de elétrons entre os corpos em contato.
+                    </p>
+                </div>
+            </div>
+            <div class="plano">
+                <div class="texto1">
+                    <p class="textos2">
+                        <span class="secundaria">Definição:</span> Eletrização por contato é a transferência de elétrons de um corpo para outro, resultando em uma redistribuição de cargas. Dependendo da natureza das cargas dos corpos, um deles fica carregado positivamente e o outro negativamente.
+
+                    </p>
+                </div>
+            </div>
+            
+            <section class="planos">
+                <span id="como-ocorre"></span>
+                <h1 class="titulos2">Como ocorre</h1>
+                <div class="plano">
+                    <div class="texto1">
+                        <p class="textos2">
+                            <span class="secundaria">Contato físico entre os corpos:</span> Quando dois corpos entram em contato, ocorre uma troca de elétrons, pois os elétrons podem se mover entre os corpos.
+                        </p>
+                    </div>
+                </div>
+                <div class="plano">
+                    <div class="texto1">
+                        <p class="textos2">
+                            <span class="secundaria">Transferência de cargas:</span> Se o corpo A está carregado negativamente e o corpo B é neutro, os elétrons do corpo A tendem a se mover para o corpo B, deixando o corpo A mais positivo e o corpo B mais negativo. O contrário também pode acontecer, dependendo da diferença de cargas.
+                        </p>
+                    </div>
+                </div>
+                <div class="plano">
+                    <div class="texto1">
+                        <p class="textos2">
+                            <span class="secundaria">Após o contato:</span> Quando os corpos se afastam, cada um permanece com a carga adquirida, uma vez que não há mais contato entre eles.   
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <span id="caracteristicas"></span>
+            <section class="planos">
+                <h1 class="titulos2">Características</h1>
+                <div class="plano">
+                    <div class="texto1">
+                        <p class="textos2">
+                            <span class="secundaria">Equilíbrio de cargas:</span> A quantidade de carga transferida depende das propriedades dos materiais em questão e da diferença de potencial entre eles.
+                        </p>
+                    </div>
+                </div>
+                <div class="plano">
+                    <div class="texto1">
+                        <p class="textos2">
+                            <span class="secundaria">Distribuição de cargas:</span> A carga adquirida por cada corpo depende de sua capacidade de aceitar ou doar elétrons. Isso é influenciado pelas propriedades dos materiais envolvidos (por exemplo, se são bons condutores ou isolantes).
+    
+                        </p>
+                    </div>
+                </div>
+        </section>
+        </section>
+
+        <span id="exemplo"></span>
+        <br><br><br><br>
+
+        <div class="container-calculadora">
+            <h1>Calculadora de Distribuição de Carga</h1>
+            <div class="charge-inputs">
+                <div class="charge-circle" id="chargeCircle1">
+                    <input type="number" id="charge1" step="any" placeholder="0.00 C" required>
+                    <span>Objeto 1</span>
+                </div>
+                <div class="charge-circle" id="chargeCircle2">
+                    <input type="number" id="charge2" step="any" placeholder="0.00 C" required>
+                    <span>Objeto 2</span>
+                </div>
+            </div>
+            <button id="calculateButton">Calcular</button>
+            <div id="animationContainer"></div>
+            <div id="result"></div>
+        </div>
+
+    </main>
+
+    <!--FOOTER-->
+
+    <footer>
+        <hr />
+
+        <p>© 2025. Desenvolvido por <span class="secundaria">.</span>
+            <span class="terciaria">Yuri Moreira</span><span class="terciaria">,</span><span class="secundaria">.</span>
+            <span class="terciaria"> Matheus Lélis</span><span class="terciaria">,</span><span
+                class="secundaria">.</span>
+            <span class="terciaria">Ian Gabriel</span><span class="terciaria">,</span><span class="secundaria">.</span>
+            <span class="terciaria">Leandro da Cruz</span><span class="terciaria">,</span><span
+                class="secundaria">.</span>
+            <span class="terciaria">Ryan Vitor e</span><span class="secundaria">.</span>
+            <span class="terciaria">Gustavo Benício.<span>
+        </p>
+        <div>
+            <a href="https://github.com/yurimoreira08/Trabalho-de-Fisica"><ion-icon class="ion-footer"
+                    name="logo-github"></a>
+        </div>
+
+    </footer>
+
 </body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+
 </html>
