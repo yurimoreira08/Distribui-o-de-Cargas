@@ -1,0 +1,421 @@
+/* Fonte Padrão */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cores Padrões */
+:root {
+    --cor-primaria:#64baa1;
+    --cor-secundaria:#33a483;
+    --cor-terciaria:#021f53;
+    --cor-quartenaria:#1e3866;
+    --cor-quintenaria:#a3e5f3;
+    --cor-senaria:#fff;
+}
+
+
+/*Padrões*/
+
+.titulos{
+    font-family: 'Alfa Slab One', sans-serif;
+}
+
+.textos{
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+
+.terciaria{
+    color: var(--cor-terciaria);
+    font-weight: bold;
+}
+
+.inicio {
+    margin-bottom: 2rem;
+}
+
+.sobe {
+    margin-top: -4rem;
+}
+/*HAEDER*/
+
+h5 {
+    font-size: 1.5rem;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25rem;
+    background-color: var(--cor-primaria);
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 1.5rem;
+}
+
+.navegacao a{
+    font-family: 'Inter', sans-serif;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navegacao a:hover{
+color: var(--cor-senaria);
+text-decoration: underline;
+transition-duration: 0.5s;
+
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+/*SEÇÃO 1*/
+
+.secao1{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-secundaria);
+    gap: 20rem;
+
+}
+
+.slogan h1{
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 28rem;
+    text-align: justify;
+    line-height: normal;
+}
+
+.logo-goodShape img{
+    margin-top: 6rem;
+    height: 23rem;
+    margin-bottom: 3rem;
+}
+
+/*SEÇÃO SOBRE*/
+
+.definicao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.topico1 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.secundariaT{
+    color: var(--cor-secundaria);
+}
+
+.secundaria{
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+
+
+.texto1{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.topico2{
+    margin-bottom: 1rem;
+    color: #D8D8D8;
+    margin-left: 4rem;
+}
+
+.texto2{
+    
+    color: var(--cor-senaria);
+    margin-left: 4rem;
+    text-align: justify;
+    line-height: 2.3rem;
+}
+
+.objetivos{
+    background-color: var(--cor-terciaria);
+    width: 57rem;
+    border-radius: 22px;
+    margin-left: 12rem;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+
+/*SEÇÃO PRINCIPAIS FUNCIONALIDADES*/
+
+.topico3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.feed h1{
+    color: var(--cor-terciaria);
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+.feed p{
+    width: 24rem;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+
+.dividindo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin-bottom: 12rem;
+}
+
+.videochamada h1{
+    color: var(--cor-terciaria);
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+.videochamada p{
+    width: 19rem;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+
+
+/*SEÇÃO BENEFÍCIOS*/
+
+.beneficios1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--cor-primaria);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 40rem;
+    margin-left: 23rem;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+    z-index: 998;
+}
+
+.beneficios2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--cor-primaria);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 40rem;
+    margin-left: 23rem;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+}
+
+.beneficios2 p{
+margin-right: 5rem;
+}
+
+.beneficios3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--cor-primaria);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 40rem;
+    margin-left: 23rem;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+}
+
+.beneficios3 p{
+width: 25rem;
+line-height: 2rem;
+}
+
+
+/*by Rafael*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-benefit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+    padding: 40px 0;
+}
+
+.card-benefit:hover {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    transition: 0.5s;
+    border-left: var(--cor-terciaria) solid 40px;
+}
+
+.card-benefit-content {
+    width: 30%;
+}
+
+.card-benefit h1 {
+    color: var(--cor-terciaria);
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-benefit p {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.card-benefit img {
+    width: 260px;
+    height: 260px;
+    background-color: var(--cor-quartenaria);
+}
+
+.card-benefit-invert {
+    flex-direction: row-reverse;
+}
+
+
+
+/* SEÇÃO PLANOS */
+
+.titulos2{
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: xx-large;
+    color: var(--cor-senaria);
+}
+
+.textos2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    color: var(--cor-senaria);
+    width: 70%;
+}
+
+.planos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cor-quartenaria);
+    padding: 5rem 0 3rem 0;
+}
+
+.img-vantagens {
+    border-radius: 50%;
+    background-color: black;
+}
+
+.plano{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.plano img {
+    width: 15rem;
+}
+
+/* SEÇÃO PRÊMIOS */
+.premios {
+    background-color: var(--cor-quintenaria);
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    gap: 1rem;
+}
+
+.div-premios{
+    display: flex;
+    justify-content: center;
+}
+
+.img-premios h1{
+    width: 23rem;
+    text-align: center;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.img-premios{
+    margin-top: 1rem;
+}
+
+.img-premios img, .img-premio img{
+    height: 30rem;
+    margin-bottom: -15rem;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: var(--cor-secundaria);
+    margin-top: -1rem;
+}
+
+footer p{
+    color: var(--cor-senaria);
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    padding: 1rem 0 1rem 0;
+}
+
+hr{
+    color: var(--cor-senaria);
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    gap: 5px;
+}
