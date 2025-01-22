@@ -27,14 +27,13 @@ body {
 
 /*Padrões*/
 
-.titulos{
-    font-family: 'Alfa Slab One', sans-serif;
+
+
+.grandao{
+    font-family: a;
+    font-size: 2.5rem;
 }
 
-.textos{
-    font-family: 'Roboto', sans-serif;
-    font-size: x-large;
-}
 
 .terciaria{
     color: var(--cor-terciaria);
@@ -282,8 +281,8 @@ line-height: 2rem;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 10%;
-    padding: 40px 0;
+    gap: 30%;
+    padding: 10px 0;
 }
 
 .card-benefit:hover {
@@ -326,7 +325,6 @@ line-height: 2rem;
 /* SEÇÃO PLANOS */
 
 .titulos2{
-    font-family: 'Alfa Slab One', sans-serif;
     font-size: xx-large;
     color: var(--cor-senaria);
 }
@@ -335,7 +333,7 @@ line-height: 2rem;
     font-family: 'Roboto', sans-serif;
     font-size: larger;
     color: var(--cor-senaria);
-    width: 70%;
+    width: 50%;
 }
 
 .planos {
@@ -344,7 +342,7 @@ line-height: 2rem;
     align-items: center;
     flex-direction: column;
     background-color: var(--cor-quartenaria);
-    padding: 5rem 0 3rem 0;
+    padding: 2rem 0 3rem 0;
 }
 
 .img-vantagens {
@@ -417,4 +415,24 @@ footer div {
     justify-content: center;
     margin-top: 3px;
     gap: 5px;
+}
+.expancao {
+    display: flex;
+    justify-content: center;
+}
+
+.expancao2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.centralizacao {
+    display: flex;
+    justify-content: center;
+    margin: -4.7rem 0 1rem 0;
+}
+
+.dividir {
+    margin-top: 3rem;
 }

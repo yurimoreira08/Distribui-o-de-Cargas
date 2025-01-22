@@ -95,6 +95,8 @@ button#calculateButton:hover {
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
+    width: 30%;
+    height: 50%;
 }
 
 .bolinha2 {
@@ -102,6 +104,8 @@ button#calculateButton:hover {
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
+    width: 30%;
+    height: 50%;
 }
 
 .group {
