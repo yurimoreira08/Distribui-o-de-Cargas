@@ -1,0 +1,105 @@
+/* CSS Responsivo */
+@media (max-width: 1200px) {
+    header {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .navegacao {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .secao1 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .slogan h1 {
+        font-size: 2rem;
+        width: 90%;
+    }
+    .logo-goodShape img {
+        height: 18rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .secao1 {
+        gap: 1rem;
+    }
+    .slogan h1 {
+        font-size: 1.5rem;
+    }
+    .logo-goodShape img {
+        height: 14rem;
+    }
+    .objetivos {
+        width: 90%;
+        margin-left: 0;
+    }
+    .beneficios1,
+    .beneficios2,
+    .beneficios3 {
+        width: 90%;
+        margin-left: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+    .card-benefit-content {
+        width: 100%;
+    }
+    .planos {
+        padding: 1rem 0;
+    }
+    .texto1,
+    .texto2 {
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+    }
+    .navegacao a {
+        font-size: 0.9rem;
+    }
+    .secao1 {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .slogan h1 {
+        font-size: 1.2rem;
+    }
+    .logo-goodShape img {
+        height: 10rem;
+    }
+    .objetivos {
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+    .card-benefit {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .beneficios1,
+    .beneficios2,
+    .beneficios3 {
+        width: 100%;
+    }
+    .planos {
+        padding: 0.5rem;
+    }
+    .plano img {
+        width: 10rem;
+    }
+    .img-premios img {
+        height: 15rem;
+    }
+    footer p {
+        font-size: 0.8rem;
+    }
+}
